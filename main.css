@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+/* Хедер с навигацией */
+.menu{
+    background-size: 100%;
+    background-image: url(./Rectangle.png);
+    background-repeat: no-repeat;
+}
+.menu-item{
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 1px solid #A1A1A1;
+}
+.menu .menu-item li{
+    padding:40px 0 40px 0;
+    margin-left: 40px;
+}
+.menu .menu-item li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.menu .menu-item li:hover{
+    border-bottom: 2px solid #FFFFFF;
+}
+/* Описание и кнопка */
+.menu-descr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu-descr >p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 820px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.menu-descr >h1{
+    margin-top: 220px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF
+}
+.menu-descr .menu-button, 
+.menu-button:focus {
+    outline: none;
+    padding: 13px 36px 15px 36px;
+    background: #4985FF;
+    border-radius: 30px;
+    border: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 300px;
+}
+/* Титульник секции сервис */
+.service-title{
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.service-title p:first-child{
+    width: 751px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #323232;
+}
+.service-title p:last-child{
+    width: 710px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+}
+/* обертка айтемов */
+.service-item{
+    display: flex;
+    justify-content: space-between;
+}
+.service-item__wrap{
+    display: flex;
+}
+.service-item__title{
+    width: 330px;
+    margin-left: 15px;
+    margin-top: 45px;
+}
+.service-item__title span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.service-item__title p{
+    width: 220px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+}
+.service-item__btn{
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 120px;
+
+}
+.service-item__btn a{
+    text-decoration: none;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    padding: 13px 36px 15px 36px;
+    color: #ffffff;
+}
+/* about */
+.about-us{
+    background: #F6F6F8;
+}
+.about-us__wrap{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.about-us__title{
+    margin-top: 50px;
+}
+.about-us__title h2{
+    width: 424px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    color: #323232;
+}
+.about-us__title p{
+    width: 485px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+}
+.about-us__title a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4985FF;
+}
+/* items */
+.about-us__item{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-us__card{
+    margin-top: 75px;
+    padding-bottom: 70px;
+}
+.about-us__card img{
+    vertical-align: middle;
+}
+.about-us__card span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    color: #000000;
+}
+.about-us__card p{
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+}
+/* all-service */
+.all-service{
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;to bottom, white 100%);
+    position: relative;
+    z-index: 3;
+}
+.all-service::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 535px;
+    display: block;
+    background-color: #ffffff;
+    top:51%;
+    z-index: 1;
+}
+.all-service__title{
+    display: flex;
+    justify-content: space-between;
+}
+.all-service__title p{
+    width: 45%;
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    color: #FFFFFF;
+}
+.all-service__btn{
+    margin-top: 140px;
+}
+.all-service__btn a{
+    text-decoration: none;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    padding: 13px 36px 15px 36px;
+    color: #ffffff;
+}
+/* all-service card */
+.all-service__item{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    padding-bottom: 170px;
+}
+.all-service__card{
+    position: relative;
+    z-index: 5;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #E0E0E0;;
+}
+.all-service__card h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4985FF;
+}
+.all-service__card p{
+    width: 85%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+}
+.all-service__card a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4985FF
+}
