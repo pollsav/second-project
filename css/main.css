@@ -10,7 +10,7 @@
 /* Хедер с навигацией */
 .menu{
     background-size: 100%;
-    background-image: url(./Rectangle.png);
+    background-image: url(./images/Rectangle.png);
     background-repeat: no-repeat;
 }
 .menu-item{
