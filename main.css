@@ -323,7 +323,7 @@
 }
 .all-project__img{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 70px;
 }
 .all-project__btn{
