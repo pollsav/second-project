@@ -2,6 +2,7 @@
     box-sizing: border-box;
     list-style-type: none;
     font-family: 'Montserrat', sans-serif;
+    font-style: normal;
 }
 .container{
     margin: 0 auto;
@@ -340,6 +341,9 @@
     color: #ffffff;
 }
 /* video */
+.video{
+    margin-bottom: 80px;
+}
 .image{
     position: relative;
 }
@@ -379,5 +383,102 @@
 .video-player{
     padding-bottom: 85px;
     text-align: center;
-    border-radius: 10px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.video-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.video-content span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.video-content span:last-child{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
+    margin-top: 35px;
+}
+.video-content p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    margin-bottom: 30px;
+}
+.video-content form input{
+    width: 330px;
+    padding: 15px 0 13px 33px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #999999;
+}
+.video-content form input:last-child{
+    margin-left: -30px;
+    width: 190px;
+    padding: 15px 36px 15px 26px;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0px 30px 30px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* footer */
+footer{
+    background: #F6F6F8;
+}
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.footer-link__contact{
+    margin-top: 122px;
+}
+.footer-link__contact h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.footer-link__contact ul{
+    padding-left: 17px;
+    margin-top: 35px;
+    list-style-image: url(./images/Vector.png);
+}
+.footer-link__contact ul li{
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+}
+.p{
+    margin-top:30px;
+    padding-bottom: 30px; 
+    text-align: center;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
 }
